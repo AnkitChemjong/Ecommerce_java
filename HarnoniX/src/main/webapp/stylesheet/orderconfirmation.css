@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Centering content */
+.content {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.content p {
+  margin-bottom: 20px;
+}
+
+.content a {
+  display: block;
+  margin-top: 20px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.content a:hover {
+  text-decoration: underline;
+}
+
+/* Button styles */
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}

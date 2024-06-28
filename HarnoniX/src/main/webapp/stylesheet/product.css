@@ -1,0 +1,171 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-image:url(../resources/images/j.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.navbar{
+	width:100%;
+	background:azure;
+	height:80px;
+	margin-bottom:20px;
+	display:flex;
+	justify-content:center;
+	align-item:center;
+}
+
+.navbar>img{
+	position:relative;
+	right:250px;
+}
+form {
+    position:relative;
+    right:30px;
+    
+}
+.navbar>form>input{
+	border-radius:20px;
+	width:300px;
+	position:relative;
+	text-align:center;
+	top:20px;
+	left:350px;
+	
+}
+.navbar>form>button{
+	border-radius:20px;
+	position:relative;
+	left:295px;
+	width:0px;
+	height:0px;
+	background-color:white;
+	top:30px;
+}
+.navbar>form>button>i{
+	font-size:20px;
+	position:relative;
+	bottom:8px;
+}
+input[type="text"] {
+    padding: 8px;
+    width: 20%;
+    min-width: 200px;
+}
+
+
+button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.links {
+   position:relative;
+   top:30px;
+   left:30px;
+}
+
+.links a {
+    margin-right: 20px;
+    margin-left:20px;
+    text-decoration: none;
+    color: #000;
+}
+.links a:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+.collections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.collection {
+    width: 30%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    height:500px;
+}
+.collection a{
+	 text-decoration:"none";
+	 align-items:center;	}
+  
+
+.product-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.details {
+    padding: 10px;
+}
+
+.details h4 {
+	margin:10px;
+	font-family:sand-sarif;
+	text-decoration:none;
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.details p {
+	text-decoration:none;
+	font-family:sand-sarif;
+    margin: 0;
+    color: #666;
+}
+
+.btn-cartadd {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius:50px;
+    width:200px;
+    position:relative;
+    left:30px;
+    height:30px;
+}
+
+.btn-cartadd:hover {
+	transform:scale(1.2);
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+
+.collection {
+    text-align: center;
+}
+
+.product-link {
+    text-decoration: none;
+}
+
+.product-heading {
+    margin-top: 0;
+    text-decoration: none;
+}
+
+.product-price {
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.product-heading,
+.product-price {
+    text-align: center;
+}
+
+
+

@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-image:url(../resources/images/pink.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+
+
+nav {
+    background-color: azure;
+    color: black;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>h1{
+	position:relative;
+	right:150px;
+}
+
+.logo img {
+    max-width: 100px;
+}
+.logo img{
+	position:relative;
+	left:80px;
+}
+
+.nav-items {
+	margin-top:170px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.nav-items ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+}
+
+.nav-items ul li {
+    margin-top: 20px;
+}
+
+.nav-items ul li:last-child {
+    margin-right: 0;
+}
+
+.nav-items ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-items ul li a:hover {
+    color:grey;
+}
+
+
+h1 {
+    font-size: 24px;
+    margin: 20px;
+    text-align: center;
+}
+
+

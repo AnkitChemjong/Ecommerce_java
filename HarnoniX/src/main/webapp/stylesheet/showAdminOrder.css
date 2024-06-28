@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* Style for All Orders */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #333;
+    color: #fff;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+.complete-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.complete-btn:hover {
+    background-color: #45a049;
+}
+
+nav {
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  color: #fff;
+  padding: 10px 0;
+}
+
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.container-nav>img{
+	width:100px;
+	height:100px;
+}
+.navigation ul {
+  list-style: none;
+}
+
+.navigation ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navigation ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navigation ul li a:hover {
+  color: #ddd;
+}
+
+/* Image styles */
+.small-image {
+  width: 50px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}

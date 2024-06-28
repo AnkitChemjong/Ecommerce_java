@@ -1,0 +1,139 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+	background-image:url(../resources/images/k.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	}
+
+.profile {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color:azure;
+    margin-top:10%;
+    margin-left:27%;
+    width:500px;
+    height:300px;
+    padding:50px 50px;
+    border-radius:30px;
+}
+
+.p_side {
+    margin-right: 20px;
+}
+
+.customer-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border:15px solid azure;
+    position:relative;
+    bottom:150px;
+    object-fit: cover;
+}
+.detail{
+	position:relative;
+	bottom:100px;
+	left:30px;
+}
+
+.detail p{
+    margin-top:20px;
+    font-size: 16px;
+}
+
+.edit {
+   position:relative;
+   bottom:90px;
+   left:70px;
+     
+}
+
+.edit>i {
+    color: #007bff; 
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.fa-pen:hover {
+    color: #0056b3; 
+}
+
+
+
+.navbar{
+	width:100%;
+	background:azure;
+	height:80px;
+	margin-bottom:20px;
+	display:flex;
+	justify-content:center;
+	align-item:center;
+}
+
+.navbar>img{
+	position:relative;
+	right:460px;
+}
+form {
+    position:relative;
+    right:30px;
+    
+}
+.navbar>form>input{
+	border-radius:20px;
+	width:300px;
+	position:relative;
+	text-align:center;
+	top:20px;
+	left:240px;
+	
+}
+.navbar>form>button{
+	border-radius:20px;
+	position:relative;
+	left:295px;
+	width:0px;
+	height:0px;
+	background-color:white;
+	top:30px;
+}
+.navbar>form>button>i{
+	font-size:20px;
+	position:relative;
+	bottom:8px;
+}
+input[type="text"] {
+    padding: 8px;
+    width: 20%;
+    min-width: 200px;
+}
+
+
+button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.links {
+   position:relative;
+   top:30px;
+   left:-150px;
+}
+
+.links a {
+    margin-right: 20px;
+    margin-left:20px;
+    text-decoration: none;
+    color: #000;
+}
+.links a:hover {
+    color: #007bff; /* Change color on hover */
+}
+

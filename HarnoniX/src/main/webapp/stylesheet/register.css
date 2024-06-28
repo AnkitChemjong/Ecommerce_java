@@ -1,0 +1,91 @@
+@charset "UTF-8";
+body{
+	
+	 background-image:url(../resources/images/final.jpg);
+	 background-position:center;
+	 background-repeat:no-repeat;
+	 background-size:cover;
+}
+.container {
+    margin-top: 50px;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-item:center;
+}
+.card {
+    box-shadow: 0 8px 8px 0 rgb(255, 255, 255);
+    border:2px solid black;
+    transition: 0.3s;
+    border-radius: 10px;
+    width:500px;
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+}
+
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card p {
+    margin-bottom: 0;
+}
+.card>img{
+	width:150px;
+	height:150px;
+	position:relative;
+	left:20px;
+}
+.card>h1{
+	position:relative;
+	color:azure;
+    font-family:sand-sarif;
+	left:230px;
+	bottom:90px;
+}
+.card>form{
+	position:relative;
+	bottom:40px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    
+}
+.form-control {
+   border-radius:20px;
+   border:1px solid black;
+   text-align:center;
+   background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+}
+.form-group>label{
+	color:azure;
+	font-family:sand-sarif;
+	font-size:20px;
+	
+}
+
+
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius:50px;
+    width:200px;
+    position:relative;
+    left:130px;
+}
+
+.btn-primary:hover {
+	transform:scale(1.2);
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.text-center {
+    text-align: center;
+}
+.text-center>p>a{
+text-decoration:none;
+color:azure;
+}

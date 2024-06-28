@@ -1,0 +1,148 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(../resources/images/k.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    width:100%;
+    height:100%;
+}
+
+.prod_detailed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 170px;
+    margin-left:25%;
+    border:2px solid black;
+    width:650px;
+    border-radius:20px;
+}
+
+.prod_detailed img {
+    width: 300px;
+    border-radius:20px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.prod_desc {
+    width: 400px;
+}
+
+.prod_desc h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.prod_desc p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.featu span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.but_c,
+.but_o {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #007bff; /* Background color for buttons */
+    color: #fff; /* Text color for buttons */
+}
+
+.but_o {
+    margin-left: 10px; /* Margin between buttons */
+}
+
+.but_c:hover,
+.but_o:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
+
+.fa-cart-shopping {
+    margin-left: 5px;
+}
+
+
+.navbar{
+	width:100%;
+	background:azure;
+	height:80px;
+	margin-bottom:20px;
+	display:flex;
+	justify-content:center;
+	align-item:center;
+}
+
+.navbar>img{
+	position:relative;
+	right:250px;
+}
+form {
+    position:relative;
+    right:30px;
+    
+}
+.navbar>form>input{
+	border-radius:20px;
+	width:300px;
+	position:relative;
+	text-align:center;
+	top:20px;
+	left:350px;
+	
+}
+.navbar>form>button{
+	border-radius:20px;
+	position:relative;
+	left:295px;
+	width:0px;
+	height:0px;
+	background-color:white;
+	top:30px;
+}
+.navbar>form>button>i{
+	font-size:20px;
+	position:relative;
+	bottom:8px;
+}
+input[type="text"] {
+    padding: 8px;
+    width: 20%;
+    min-width: 200px;
+}
+
+
+button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.links {
+   position:relative;
+   top:30px;
+   left:30px;
+}
+
+.links a {
+    margin-right: 20px;
+    margin-left:20px;
+    text-decoration: none;
+    color: #000;
+}
+.links a:hover {
+    color: #007bff; /* Change color on hover */
+}

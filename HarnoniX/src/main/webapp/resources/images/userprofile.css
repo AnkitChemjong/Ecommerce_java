@@ -1,0 +1,55 @@
+/* userprofile.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile {
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.p_side {
+    margin-bottom: 20px; /* Adjust margin if needed */
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover;
+    border: 4px solid #fff; /* Added border */
+    box-shadow: 0 0 0 4px #0a0a0a; /* Added shadow to the image */
+}
+
+.detail {
+    margin-bottom: 20px;
+    line-height: 1.5; /* Increased line height for better readability */
+}
+
+.detail p {
+    margin: 10px 0; /* Increased margin for better separation */
+}
+
+.edit i {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.attribution {
+    font-size: 12px;
+    text-align: center;
+    color: #888; /* Changed color for better visibility */
+    margin-top: 20px;
+}

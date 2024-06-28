@@ -1,0 +1,167 @@
+@charset "UTF-8";
+/* nav.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-image:url(../resources/images/pink.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.navbar{
+	width:100%;
+	background:azure;
+	height:80px;
+	margin-bottom:20px;
+	display:flex;
+	justify-content:center;
+	align-item:center;
+}
+
+.navbar>img{
+	position:relative;
+	right:450px;
+}
+form {
+    position:relative;
+    right:30px;
+    
+}
+.navbar>form>input{
+	border-radius:20px;
+	width:300px;
+	position:relative;
+	text-align:center;
+	top:20px;
+	left:350px;
+	
+}
+.navbar>form>button{
+	border-radius:20px;
+	position:relative;
+	left:295px;
+	width:0px;
+	height:0px;
+	background-color:white;
+	top:30px;
+}
+.navbar>form>button>i{
+	font-size:20px;
+	position:relative;
+	bottom:8px;
+}
+input[type="text"] {
+    padding: 8px;
+    width: 20%;
+    min-width: 200px;
+}
+
+
+button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.links {
+   position:relative;
+   top:30px;
+   left:-160px;
+}
+
+.links a {
+    margin-right: 20px;
+    margin-left:20px;
+    text-decoration: none;
+    color: #000;
+}
+.links a:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+.cart_info {
+    margin: 20px;
+}
+
+.cart_info h1 {
+    margin-bottom: 20px;
+}
+
+.add_carts {
+    display: flex;
+    margin-bottom: 20px;
+    background-color:azure;
+    border:2px solid black;
+    border-radius:20px;
+}
+
+.add_carts .image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.add_carts .image img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius:20px;
+}
+
+.add_carts .prod_name {
+    display: flex;
+    flex-direction: column;
+}
+
+.add_carts .quantity,
+.add_carts .total_amt {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add_carts .Q_btn button {
+    background-color: #ddd;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.add_carts .Q_btn p {
+    margin: 0;
+}
+.add_carts .delete_btn,
+.add_carts .order_btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-right:20px;
+    border-radius:20px;
+}
+
+.add_carts .delete_btn:hover,
+.add_carts .order_btn:hover {
+    background-color: #555;
+}
+
+.clear_btn {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.clear_btn:hover {
+    background-color: #cc0000;
+}
